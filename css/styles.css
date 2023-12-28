@@ -710,12 +710,15 @@ img {
   opacity: 0;
 }
 
-.checkbox:checked + .form-agreement-checkbox {
+.checkbox:checked + .form-agreement > .form-agreement-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
-.checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
+.checkbox:checked
+  + .form-agreement
+  > .form-agreement-checkbox
+  > .form-agreement-icon {
   opacity: 1;
 }
