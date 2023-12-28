@@ -546,12 +546,10 @@ img {
   right: 24px;
   width: 24px;
   height: 24px;
+  
   background-color: #e7e9fc;
-
   border: 1px solid rgba(0, 0, 0, 0.1);
-
   border-radius: 50%;
-  border: none;
   cursor: pointer;
   padding: 0;
 
@@ -566,8 +564,8 @@ img {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #404bbf;
-  fill: #ffffff;
-}
+  border: none;
+ }
 
 .modal-btn-icon {
   fill: #2e2f42;
